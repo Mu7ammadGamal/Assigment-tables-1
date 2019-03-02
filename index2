@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Schedule </title>
+        <meta charset="utf-8">
+        <meta name="shedule" content="Welcome to tables and schedules">
+        <style>
+           body
+            {
+                background-image: url("tbckg.jpg");
+                font-family: Arial, Tahoma;
+                
+            }
+            table
+            {
+                border: 4px solid black;
+                border-collapse: collapse;
+                widtd: 70%;
+                padding: 7px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            td,tr
+            {
+                border: 2px dashed #000000;
+                border-bottom: 3px outset #A8A3A3;
+                padding: 5px;
+                             
+             }
+                      
+               td.c1:hover{ background-color: #E3F639}
+               td.c2:hover{ background-color: #39FD33}
+               td.c3:hover{ background-color: #4A88F3}
+               td.c4:hover{ background-color: #A6A6A6}
+               td.c5:hover{ background-color: #FCA6BD} 
+           
+        </style>
+  
+  
+    </head>
+    <body>
+         <table>
+            <caption style="color: #C11140; padding: 25px">Spring Term 2019 Communication Department</caption>
+                       
+            <tr style="text-align: center">
+                <td></td>
+                <td>Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+                <td>Thursday</td>
+                <td>Friday</td>
+            </tr>
+            
+            <tr>
+                <td>01:00 PM</td>
+                <td class="c1" rowspan="2"><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a></td>
+                <td></td>
+                <td class="c5" rowspan="2">HTML</td>
+                <td class="c5" rowspan="8"> HTML hour by Apps</td>
+                <td class="c5" rowspan="2">HTML</td>                 
+            </tr>
+            
+            <tr>
+                <td>03:00 PM</td>
+                <td class="c4" rowspan="2">DeptMeeting</td>
+            </tr>
+            
+            <tr>
+                <td>02:00 PM</td>
+                <td class="c2" rowspan="3">CSS</td>
+                <td class="c2" rowspan="3">CSS</td>
+                <td class="c2" rowspan="3">CSS</td>
+            </tr>
+            
+            <tr>
+                <td>03:00 PM</td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>05:00 PM</td>
+                <td class="c4" rowspan="3">EC Meeting</td>                
+            </tr> 
+            
+            <tr>
+                <td>03:30 PM</td>
+                <td class="c3" rowspan="3">CSE205</td>
+                <td class="c3" rowspan="3">CSE205</td>
+                <td class="c3" rowspan="3">CSE205</td>
+                
+            </tr>
+            
+            <tr>
+                <td>03:30 PM</td>
+            </tr>
+            
+            <tr>
+                <td>03:30 PM</td>
+                <td></td>
+            </tr>       
+                                
+            </table><br>
+            
+            <div style="text-align: center"><a href="description.html" target="_blank" style="text-align: center">Click here for description</a></div>
+        
+    </body>
+</html>
+
+ 
